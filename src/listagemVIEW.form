@@ -123,6 +123,9 @@
               <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
             </Property>
           </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="listaProdutosMouseClicked"/>
+          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -166,6 +169,7 @@
     <Component class="javax.swing.JButton" name="btnVendas">
       <Properties>
         <Property name="text" type="java.lang.String" value="Consultar Vendas"/>
+        <Property name="name" type="java.lang.String" value="btnVendas" noResource="true"/>
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnVendasActionPerformed"/>
